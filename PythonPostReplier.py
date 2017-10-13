@@ -1,3 +1,5 @@
+#Tutorial taken from http://pythonforengineers.com/build-a-reddit-bot-part-2-reply-to-posts/
+
 import praw
 import pdb
 import re

@@ -1,3 +1,5 @@
+#Tutorial taken from http://pythonforengineers.com/build-a-reddit-bot-part-1/
+
 import praw
 
 reddit = praw.Reddit('bot1')
