@@ -2,8 +2,9 @@
 Code adpated from http://pythonforengineers.com/build-marvin-the-depressed-reddit-bot-in-python/
 Original json joke file from https://raw.githubusercontent.com/taivop/joke-dataset/master/stupidstuff.json
 
-
 -Reddit bot that replies to comments with a random joke when prompted with 'tell me a joke'
+-TO DO's:
+*Find a better database of jokes
 Modified by Joseph Yeung
 '''
 
