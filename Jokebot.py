@@ -37,7 +37,7 @@ for comment in subreddit.stream.comments():
                 joke = joke_dict['body']
                 joke_found = True if joke != '' and len(joke) < MAX_JOKE_LENGTH \
                     and joke_dict['rating'] >= MIN_RATING else False
-            except UnicodeEncodeError:
+            except UnicodeEncodeError: #Some problems decoding the file, skip that joke
                 pass
         
         jokebot_reply = 'clown_bot has a joke for you:\n' + joke
